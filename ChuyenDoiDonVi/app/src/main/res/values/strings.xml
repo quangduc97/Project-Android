@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ChuyenDoiDonVi</string>
+
+    <string-array name="weightlist">
+        <item>Kilogram</item>
+        <item>Kilogram</item>
+        <item>Kilogram</item>
+        <item>Kilogram</item>
+        <item>Kilogram</item>
+        <item>Kilogram</item>
+        <item>Kilogram</item>
+    </string-array>
+
+</resources>
