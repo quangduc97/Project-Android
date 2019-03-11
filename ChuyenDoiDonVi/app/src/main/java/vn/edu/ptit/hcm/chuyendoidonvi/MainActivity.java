@@ -10,8 +10,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        /*setContentView(R.layout.activity_main);*/
-        setContentView(R.layout.temperature);
+        setContentView(R.layout.activity_main);
+        /*setContentView(R.layout.temperature);*/
         Spinner spinner = findViewById(R.id.weightList);
         ActionBar actionBar = getSupportActionBar();
         actionBar.hide();
