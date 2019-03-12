@@ -4,6 +4,7 @@
 
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -73,13 +74,14 @@
             // Temperature
 
             <LinearLayout
-                android:weightSum="4"
-                android:orientation="vertical"
+                android:id="@+id/tem"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_corner">
+                android:background="@drawable/rounded_corner"
+                android:orientation="vertical"
+                android:weightSum="4">
 
                 <ImageView
                     android:layout_width="match_parent"
@@ -88,15 +90,16 @@
                     android:layout_marginTop="15dp"
                     android:layout_weight="3"
                     app:srcCompat="@drawable/warm" />
+
                 <TextView
-                    android:textColor="#000"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
                     android:fontFamily="@font/calibrib"
                     android:gravity="center"
-                    android:layout_weight="1"
-                    android:textSize="27sp"
                     android:text="Temperature"
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp" />
+                    android:textColor="#000"
+                    android:textSize="27sp" />
             </LinearLayout>
         </LinearLayout>
 
