@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="20.25">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.25">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:background="#673AB7"
+            android:fontFamily="@font/calibrib"
+            android:gravity="center"
+            android:shadowColor="#F1F1F1"
+            android:text="Weight"
+            android:textColor="#fff"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="18"
+        android:background="#F0F0F0"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4">
+
+
+            <Spinner
+                android:id="@+id/weightList"
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"></LinearLayout>
+
+        <LinearLayout
+
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+            <Button
+
+                android:padding="15dp"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button"
+                android:fontFamily="@font/calibrib"
+                android:gravity="center"
+                android:text="CHUYỂN ĐỔI"
+                android:textColor="#fff"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

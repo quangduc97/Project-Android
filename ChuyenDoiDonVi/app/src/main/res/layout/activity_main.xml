@@ -45,13 +45,14 @@
             // Data Storage
 
             <LinearLayout
-                android:weightSum="4"
-                android:orientation="vertical"
+                android:id="@+id/data"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_corner">
+                android:background="@drawable/rounded_corner"
+                android:orientation="vertical"
+                android:weightSum="4">
 
                 <ImageView
                     android:layout_width="match_parent"
@@ -60,15 +61,16 @@
                     android:layout_marginTop="15dp"
                     android:layout_weight="3"
                     app:srcCompat="@drawable/folder" />
+
                 <TextView
-                    android:textColor="#000"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
                     android:fontFamily="@font/calibrib"
                     android:gravity="center"
-                    android:layout_weight="1"
-                    android:textSize="27sp"
                     android:text="Data Storage"
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp" />
+                    android:textColor="#000"
+                    android:textSize="27sp" />
             </LinearLayout>
 
             // Temperature
@@ -113,13 +115,14 @@
             // Weight
 
             <LinearLayout
-                android:weightSum="4"
-                android:orientation="vertical"
+                android:id="@+id/weight"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_corner">
+                android:background="@drawable/rounded_corner"
+                android:orientation="vertical"
+                android:weightSum="4">
 
                 <ImageView
                     android:layout_width="match_parent"
@@ -128,27 +131,29 @@
                     android:layout_marginTop="15dp"
                     android:layout_weight="3"
                     app:srcCompat="@drawable/scale" />
+
                 <TextView
-                    android:textColor="#000"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
                     android:fontFamily="@font/calibrib"
                     android:gravity="center"
-                    android:layout_weight="1"
-                    android:textSize="27sp"
                     android:text="Weight"
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp" />
+                    android:textColor="#000"
+                    android:textSize="27sp" />
             </LinearLayout>
 
             // Currency
 
             <LinearLayout
-                android:weightSum="4"
-                android:orientation="vertical"
+                android:id="@+id/currency"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_corner">
+                android:background="@drawable/rounded_corner"
+                android:orientation="vertical"
+                android:weightSum="4">
 
                 <ImageView
                     android:layout_width="match_parent"
@@ -157,15 +162,16 @@
                     android:layout_marginTop="15dp"
                     android:layout_weight="3"
                     app:srcCompat="@drawable/moneybag" />
+
                 <TextView
-                    android:textColor="#000"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
                     android:fontFamily="@font/calibrib"
                     android:gravity="center"
-                    android:layout_weight="1"
-                    android:textSize="27sp"
                     android:text="Currency"
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp" />
+                    android:textColor="#000"
+                    android:textSize="27sp" />
             </LinearLayout>
         </LinearLayout>
 
@@ -179,13 +185,14 @@
             // Length
 
             <LinearLayout
-                android:weightSum="4"
-                android:orientation="vertical"
+                android:id="@+id/length"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_corner">
+                android:background="@drawable/rounded_corner"
+                android:orientation="vertical"
+                android:weightSum="4">
 
                 <ImageView
                     android:layout_width="match_parent"
@@ -194,27 +201,29 @@
                     android:layout_marginTop="15dp"
                     android:layout_weight="3"
                     app:srcCompat="@drawable/square" />
+
                 <TextView
-                    android:textColor="#000"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
                     android:fontFamily="@font/calibrib"
                     android:gravity="center"
-                    android:layout_weight="1"
-                    android:textSize="27sp"
                     android:text="Length"
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp" />
+                    android:textColor="#000"
+                    android:textSize="27sp" />
             </LinearLayout>
 
             // Time
 
             <LinearLayout
-                android:weightSum="4"
-                android:orientation="vertical"
+                android:id="@+id/time"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_corner">
+                android:background="@drawable/rounded_corner"
+                android:orientation="vertical"
+                android:weightSum="4">
 
                 <ImageView
                     android:id="@+id/imageView"
@@ -224,15 +233,16 @@
                     android:layout_marginTop="15dp"
                     android:layout_weight="3"
                     app:srcCompat="@drawable/circularclock" />
+
                 <TextView
-                    android:textColor="#000"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
                     android:fontFamily="@font/calibrib"
                     android:gravity="center"
-                    android:layout_weight="1"
-                    android:textSize="27sp"
                     android:text="Time"
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp" />
+                    android:textColor="#000"
+                    android:textSize="27sp" />
             </LinearLayout>
         </LinearLayout>
 
